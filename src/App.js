@@ -3,7 +3,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import { useState } from "react";
 function App() {
-	const [mark, setMark] = useState("");
+	const [mark, setMark] = useState("Start your code here");
 	const handleMark = (e) => {
 		setMark(e.target.value);
 	};
